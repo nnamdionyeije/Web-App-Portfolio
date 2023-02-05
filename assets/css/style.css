@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+}
+
+header .main-name {
+    width: 30%;
+}
+
+header .nav-bar {
+    width: 70%;
+    margin-top: 10px;
+    /* use flex later to make sure that is centered */
+}
+
+.main-name {
+
+}
+
+.nav-bar {
+    
+
+}
+
+.nav-bar li {
+    display: inline-block;
+    float: right;
+    margin-right: 6%;
+}
+
+.nav-elements {
+}
+
+.background {
+
+}
+
+
+/* .parent { 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+        
+} */
+
+/* .div1 { grid-area: 1 / 1 / 3 / 3; } 
+.div2 { grid-area: 3 / 1 / 4 / 2; }
+.div3 { grid-area: 3 / 2 / 4 / 3; } 
+.div4 { grid-area: 4 / 2 / 5 / 3; }
+.div5 { grid-area: 4 / 1 / 5 / 2; }
+
+.works div {
+    background-color: black;
+    min-height: 100px;
+    border: 10px solid green;
+} */
+
+
+.left-text {
+    display: flex;
+}
+
+
+.all-cards {
+    max-width: 70%;
+    display: flex;
+}
+
+
+.big-card {
+    display: flex;
+}
+
+.largest-card {
+    width: 1000px;
+    height: 300px;
+    background-color: brown;
+    border: 15px solid darkviolet;
+    border-radius: 50px;
+}
+
+.smaller-cards {
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: wrap;
+}
+
+
+.small-cards {
+    width: 500px;
+    height: 150px;
+    background-color: brown;
+    border: 15px solid darkviolet;
+    border-radius: 25px;
+}
+
+
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main-footer h2 {
+    width: 30%;
+}
+
+.main-footer .links-bar {
+    width: 70%;
+}
+
+
+.links-bar {
+
+
+}
+.links-bar li {
+    display: inline-block;
+    
+}
+
+
