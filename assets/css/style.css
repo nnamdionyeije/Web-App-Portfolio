@@ -4,20 +4,23 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: #ebebf3;
 }
 
 header {
-    background-color: darkblue;
-    color: white;
+    background-color: #31343d;
+    color: #92cccd;
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 header .main-name {
     width: 30%;
+    background-color: #92cccd;
+    color:#31343d;
+    /* padding-left: 3%; */
 }
 
 header .nav-bar {
@@ -31,7 +34,7 @@ header .nav-bar {
 }
 
 .nav-bar {
-    
+    font-size: 20px;
 
 }
 
@@ -41,60 +44,148 @@ header .nav-bar {
     margin-right: 6%;
 }
 
+.nav-bar li a {
+    color:#92cccd;
+    font-size: larger;
+}
+
 .nav-elements {
 }
 
 .background {
+    margin-bottom: 100px;
+    height: 200px;
+    background-image: url("../images/pexels-shonejai-1227511.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.background h2 {
+    position: absolute;
+    bottom:10%;
+    right: 20px;
+    font-size: 50px;
+    background-color: #92cccd;
+    padding: 5px;
 
 }
 
+.background img {
+    max-width: 200px;
+    
 
-/* .parent { 
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-        
-} */
-
-/* .div1 { grid-area: 1 / 1 / 3 / 3; } 
-.div2 { grid-area: 3 / 1 / 4 / 2; }
-.div3 { grid-area: 3 / 2 / 4 / 3; } 
-.div4 { grid-area: 4 / 2 / 5 / 3; }
-.div5 { grid-area: 4 / 1 / 5 / 2; }
-
-.works div {
-    background-color: black;
-    min-height: 100px;
-    border: 10px solid green;
-} */
+}
 
 
 .left-text {
     display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
 }
 
+.about-text {
+    
+    width: 20%;
+    border-right: 5px solid black;
+    margin-right: 10px;
+
+    
+}
+
+.about-text h2 {
+    font-size: 50px;
+    float: right;
+    margin-right: 10px;
+}
+
+.explainer-text {
+    max-width: 70%;
+}
 
 .all-cards {
-    max-width: 70%;
+    width: 100%;
     display: flex;
 }
 
+.project-box {
+    border-right: 5px solid black;
+    margin-right: 10px;
+    width: 20%;
+}
+
+.project-box h2 {
+    font-size: 50px;
+    margin-right: 10px;
+    float: right;
+    
+}
+
+.right-box {
+    max-width: 70%;
+}
 
 .big-card {
+    position: relative;
     display: flex;
+}
+
+.empty-span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: url('empty.gif');
 }
 
 .largest-card {
-    width: 1000px;
-    height: 300px;
-    background-color: brown;
-    border: 15px solid darkviolet;
-    border-radius: 50px;
+    /* width: 1000px; */
+    width: 100%;
+    height: 500px;
+    border: 5px solid #92cccd;
+    /* border-radius: 50px; */
+    background-image: url("../images/Horiseon.png");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 20px;
+}
+
+.largest-card:hover {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+.largest-card {}
+
+.largest-card h3 {
+    background-color: #92cccd;
+    font-size: 30px;
+    width: fit-content;
+    padding: 10px 5px;
+    position: relative;
+    top: 70%;
+}
+
+.empty-span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: url('empty.gif');
 }
 
 .smaller-cards {
+    width:100%;
     display: flex;
     flex-direction: rows;
     flex-wrap: wrap;
@@ -103,22 +194,33 @@ header .nav-bar {
 
 .small-cards {
     width: 500px;
+    min-width: 49%;
     height: 150px;
     background-color: brown;
-    border: 15px solid darkviolet;
-    border-radius: 25px;
+    border: 5px solid #92cccd;
+    /* border-radius: 25px; */
 }
 
 
 .main-footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
-    background-color: darkblue;
-    width: 100%;
+    background-color: #31343d;
+   
     color: white;
 
+    width: 100%;
     display: flex;
     flex-direction: row;
+    padding: 20px 0px;
+}
+
+.contact-text {
+    width: 20%;
+}
+
+.link-box {
+    width: 70%;
 }
 
 .main-footer h2 {
