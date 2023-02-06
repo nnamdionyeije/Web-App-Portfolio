@@ -18,9 +18,7 @@ header {
 
 header .main-name {
     width: 30%;
-    background-color: #92cccd;
-    color:#31343d;
-    /* padding-left: 3%; */
+    
 }
 
 header .nav-bar {
@@ -29,7 +27,12 @@ header .nav-bar {
     /* use flex later to make sure that is centered */
 }
 
-.main-name {
+.name-text {
+    background-color: #92cccd;
+    color:#31343d;
+    width: fit-content;
+    padding-left: 13%;
+    padding-right: 2%;
 
 }
 
@@ -196,9 +199,20 @@ header .nav-bar {
     width: 500px;
     min-width: 49%;
     height: 150px;
-    background-color: brown;
+    background-image: url("../images/coming\ soon.png");
+    background-size: cover;
+    background-position: center;
     border: 5px solid #92cccd;
     /* border-radius: 25px; */
+}
+
+.small-cards:hover {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    transition: all .1s ease;
 }
 
 
@@ -213,11 +227,26 @@ header .nav-bar {
     display: flex;
     flex-direction: row;
     padding: 20px 0px;
+    margin-top: 30px;
+}
+
+.main-footer h2 {
+    background-color: #92cccd;
+    width: fit-content;
+    padding-left: 13%;
+    padding-right: 2%;
+    color: #31343d;
 }
 
 .contact-text {
-    width: 20%;
+    width: 30%;
 }
+
+.main-footer .nav-bar {
+    width: 70%;
+}
+
+
 
 .link-box {
     width: 70%;
