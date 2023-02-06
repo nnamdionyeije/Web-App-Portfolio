@@ -107,6 +107,10 @@ header .nav-bar {
     max-width: 70%;
 }
 
+.explainer-text p {
+    font-size: 25px;
+}
+
 .all-cards {
     width: 100%;
     display: flex;
@@ -126,12 +130,14 @@ header .nav-bar {
 }
 
 .right-box {
-    max-width: 70%;
+    width: 70%;
 }
 
 .big-card {
     position: relative;
     display: flex;
+        width: 100%;
+
 }
 
 .empty-span {
@@ -196,7 +202,7 @@ header .nav-bar {
 
 
 .small-cards {
-    width: 500px;
+    /* width: 500px; */
     min-width: 49%;
     height: 150px;
     background-image: url("../images/coming\ soon.png");
@@ -270,4 +276,55 @@ header .nav-bar {
     
 }
 
+@media screen and (max-width: 1460px) {
+    .big-card {
+        width: 100%;
+    }
+    
+    .small-cards {
+        min-width: 48%;
+    }
 
+    .about-text h2 {
+        font-size: 40px;
+    }
+
+    .project-box h2 {
+        font-size: 40px;
+    }
+
+    .contact-text {
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .small-cards {
+        min-width: 99%;
+    }
+
+    .about-text h2 {
+        font-size: 20px;
+    }
+
+    .project-box h2 {
+        font-size: 20px;
+    }
+
+    .contact-text h2 {
+        width: 80%;
+    }
+
+    .background h2 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .name-text {
+        width: 50%
+    }
+}
