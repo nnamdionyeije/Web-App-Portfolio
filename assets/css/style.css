@@ -297,6 +297,43 @@ header .nav-bar {
         width: 45%;
     }
 
+    .nav-bar li {
+        margin: 0;
+    }
+
+    .all-links {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-footer .contacts {
+    }
+
+    .quick-links {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .main-footer {
+
+    }
+
+    .nav-elements {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .quick-links {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -338,9 +375,21 @@ header .nav-bar {
     .name-text {
         width: 50%
     }
+
+    .nav-elements {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .quick-links {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
 }
 
-@media screen and (max-width: 502px) {
+@media screen and (max-width: 650px) {
     header {
         padding: 30px 0;
         height: 100px;
@@ -394,7 +443,7 @@ header .nav-bar {
     }
 
     .explainer-text p {
-        font-size: small;
+        font-size: 11px;
     }
 
 
@@ -423,6 +472,7 @@ header .nav-bar {
     .main-footer {
         display: flex;
         flex-direction: column;
+        padding-bottom: 20px;
         /* width: 100%; */
     }
 
@@ -442,7 +492,8 @@ header .nav-bar {
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
+        align-items: center;
 
     }
 
@@ -453,18 +504,20 @@ header .nav-bar {
     .contacts {
         width: fit-content;
         position: relative;
+        font-size: 15px;
     }
 
-    .all-links {
+    .main-footer .all-links {
         display: flex;
         flex-direction: column;
-        align-items: center;    
+        align-items: center;   
+        width: 100%; 
     }
 
     .nav-elements {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: center;
+        justify-content: space-evenly;
         width:100%; 
     }
     
