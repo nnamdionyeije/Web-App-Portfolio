@@ -316,6 +316,17 @@ header .nav-bar {
         width: 80%;
     }
 
+    .main-footer .all-links {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        float: right;
+    }
+
+    .main-footer .contacts {
+        float: right;
+    }
+
     .background h2 {
         font-size: 20px;
     }
@@ -360,10 +371,13 @@ header .nav-bar {
         width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .nav-elements {
         width: 100%;
+        position: relative;
+        left: 0%;        
     }
 
     .nav-bar li a {
@@ -392,5 +406,78 @@ header .nav-bar {
         font-size: 11px;
     }
 
+    .largest-card {
+        height: 300px;
+        background-image: url("../images/Horiseon-screenshot.png");
+    }
 
+    .largest-card h3 {
+        font-size: 15px;
+        top: 89%;
+    }
+    
+    .small-cards {
+        height: 75px;
+    }
+
+    .main-footer {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+
+    .contact-text {
+        width: 100%;
+    }
+
+    .main-footer h2 {
+        width: 100%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .main-footer .nav-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .main-footer .nav-bar li {
+        float: none;
+        margin: 0;
+    }
+    .contacts {
+        width: fit-content;
+        position: relative;
+    }
+
+    .all-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .nav-elements {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        width:100%; 
+    }
+    
+    .nav-bits {
+        width: 100%;
+    }
+
+    .quick-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:100%;
+            
+    }
 }
+
