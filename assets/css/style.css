@@ -221,6 +221,28 @@ header .nav-bar {
     transition: all .1s ease;
 }
 
+.small-cards1 {
+    /* width: 500px; */
+    min-width: 49%;
+    height: 150px;
+    background-image: url("../images/Go\ For\ Fitness.png");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #92cccd;
+    /* border-radius: 25px; */
+}
+
+.small-cards1:hover {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+
+
 
 .main-footer {
     position: relative;
