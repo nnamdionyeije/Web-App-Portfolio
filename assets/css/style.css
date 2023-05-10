@@ -241,6 +241,26 @@ header .nav-bar {
     transition: all .1s ease;
 }
 
+.small-cards2 {
+    /* width: 500px; */
+    min-width: 49%;
+    height: 150px;
+    background-image: url("../images/feast-findr.png");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #92cccd;
+    /* border-radius: 25px; */
+}
+
+.small-cards2:hover {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
 .empty-span1 {
     position: absolute;
     /* width: 100%;
